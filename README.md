@@ -1,10 +1,12 @@
 [![Build Status](https://travis-ci.org/wvteijlingen/Spine.svg?branch=swift-2.0)](https://travis-ci.org/wvteijlingen/Spine) [![Join the chat at https://gitter.im/wvteijlingen/Spine](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wvteijlingen/Spine?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-# Not maintained
-I'm not maintaining this library anymore. The project that used this was shelved and I'm too busy with other work, so I cannot afford to spend time on this anymore. Feel free to fork this if you want, but don't expect me to maintain or help with issues for the foreseeable future. ❤️
-
 # Spine
 Spine is a Swift library for working with APIs that adhere to the [jsonapi.org](http://jsonapi.org) standard. It supports mapping to custom model classes, fetching, advanced querying, linking and persisting.
+
+## Mission
+This repo is a continuation of the dead [Spine](https://github.com/wvteijlingen/Spine) project. Our mission is to keep Spine alive and moving forward, with maintenance fixes and new features. Pull Requests are welcome!
+
+Any help is greatly appreciated, feel free to submit pull-requests or open issues.
 
 ## Stability
 This library was born out of a hobby project. Some things are still lacking, one of which is test coverage. Beware of this when using Spine in a production app!
@@ -53,10 +55,10 @@ This library was born out of a hobby project. Some things are still lacking, one
 
 ## Installation
 ### Carthage
-Add `github "wvteijlingen/Spine" "master"` to your Cartfile. See the [Carthage documentation](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) for instructions on how to integrate with your project using Xcode.
+Add `github "json-api-ios/Spine" "master"` to your Cartfile. See the [Carthage documentation](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application) for instructions on how to integrate with your project using Xcode.
 
 ### Cocoapods
-Add `pod 'Spine', :git => 'https://github.com/wvteijlingen/Spine.git'` to your Podfile. The spec is not yet registered with the Cocoapods repository, because the library is still in flux.
+Add `pod 'Spine', :git => 'https://github.com/json-api-ios/Spine.git'` to your Podfile. The spec is not yet registered with the Cocoapods repository, because the library is still in flux.
 
 ## Configuration
 ### Defining resource types
